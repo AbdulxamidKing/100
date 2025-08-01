@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    width: 0 auto;
+    padding: 0 90px;
+}
+
+.header {
+    width: 1440px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px 0;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav ul li {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 100%;
+    color: rgba(54, 56, 83, 1);
+}
+
+.nav ul li:hover {
+    color: rgba(255, 122, 80, 1);
+    transition: all: .5s;
+}
+
+.btn {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 122, 80, 1);
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    box-shadow: 0px 22px 40px 0px rgba(255, 122, 80, 1);
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgba(255, 122, 80, 1);
+    box-shadow: 0px 0px 40px 5px #ff6738cc;
+    transition: all: 0.5s;
+}
+
+.er1 {
+    width: 454;
+    height: 50;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    text-align: start;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin: 156px 519px 50px 561px;
+}
+
+.main-text p {
+    width: 538px;
+    height: 94px;
+    color: rgba(54, 56, 83, 1);
+}
+
+.span {
+    font-weight: 500;
+    color: rgba(255, 122, 80, 1);
+
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main p {
+    margin: 23px 44px;
+}
+
+.mainimg {
+    margin-top: 162px;
+}
+.main-text{
+    margin-top: 200px;
+}
+.royhat{
+    width: 1170px;
+    height: 312px;
+    background-color:  rgba(255, 122, 80, 1);
+    color: white; 
+    text-align: center;
+    border-radius: 30px;
+}
+
+.input{
+    width: 838px;
+    height: 78px;
+    opacity: 1;
+    top: 3156px;
+    left: 303px;
+    border-radius: 70px;
+}
+.aple{
+    width: 79px;
+    height: 33px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(255, 122, 80, 1);
+    margin: 0px 39px 22px 243px;
+}
+.kartochki h3{
+    margin: 22px 156px 14px 20px;
+}
+.kartochki p{
+    margin: 14px 27px 22px 50px;
+}
